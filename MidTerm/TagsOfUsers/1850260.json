@@ -1,0 +1,1 @@
+{"quota_max": 10000, "items": [{"user_id": 1850260, "is_moderator_only": false, "count": 1, "is_required": false, "has_synonyms": true, "name": "apache-spark"}, {"user_id": 1850260, "is_moderator_only": false, "count": 1, "is_required": false, "has_synonyms": true, "name": "python"}], "has_more": false, "quota_remaining": 8831}

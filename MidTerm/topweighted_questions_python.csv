@@ -1,0 +1,409 @@
+Numpy: extract data and coordinates from 2-D arrays,48
+Adjusting subplot layout with pandas,16
+Weight choice for sampling from a distribution to normal distribution,16
+Python data Manipulation: Splitting Data from one column to make more rows in the same dataframe,14
+Python: slicing a list into a list of lists using list comprehension,68
+Python pretty XML printer with lxml,3522
+Change the values of a dictionary from lists to scalar values,18
+Regex to split the string into identical blocks,8
+How to exclude junk from SequenceMatcher?,1490
+Slicing arrays based on boolean array in python,8
+python-accessing the next object in database while in for loop,14
+Convert csv to txt in python,22
+Whats the difference between function calling with out paranthesis in python?,18
+How to get nested-groups with regexp,6
+suppress Name dtype from python pandas describe,8
+Set pandas.tseries.index.DatetimeIndex.freq with inferred_freq,218
+Python &quot;MemoryError&quot; in AWS,34
+Using super() to inherit from multiple Sessions in Python requests,110
+h5py - Python Package install error in Windows 10 64bit,32
+Unable to extract text in the immediate level using BeautifulSoup,34
+Insert matplotlib&#39;s Path into Numpy ndarray,52
+How can I rewrite the following to avoid a &quot;Nesting Blocks&quot; error?,0
+how to check list before adding items?,8
+"HTML, Python, Brithon, javascript: - Running on Brython",16
+most efficient way to randomly null out values in dataframe,218
+How to assign default value while performing concat on DataFrames,282
+django mssql setup : error initializing DB,2
+Scrapy not calling any other function after &quot;__init__&quot;,30
+Flask unittest mock not working,28
+Compare two dicts and print non-equal values in python,8
+can&#39;t pickle listreverseiterator objects using PySpark,44
+UDP client / server adress is not valid in local network,6
+"When saving django models that have foreign keys, how to save all at once?",38
+Multiple variables through one variable,8
+Need to convert multiple list of tuples into a nested dictionary,8
+Does Django used the same instance of class views per request?,38
+how to start Python from very beginning,2
+Comparing Column Values in a Pandas Dataframe,52
+Python: how many times do the values in a list appear in a dictionary of lists?,68
+Filtering a list. Get elements of list only with a certain distance between items?,114
+Pandas: Cumulative sum of one column based on value of another,546
+How many houses can I steal from?,38
+Python: edge length distribution of a regular network,68
+sklearn - model keeps overfitting,114
+Check one array&#39;s elements contains in another array,34
+"Add fields from User to a customModel, in django admin",6
+Django with MySql,2
+How to organize a subfolder of modules which are also called as scripts?,192
+Encrypt message using dictionary,4
+How to determine the version of PyJWT?,270
+Keras: Use the same layer in different models (share weights),320
+pip install virtualenv produces TypeError,34
+Django: distutils errors when installing requirements.txt,152
+Trying to use Python to parse a docx document in xml format to print words that are in bold,54
+Pandas: How to create a category based on expanding quantile?,546
+How to Combine Rows of Text in Pandas,2
+Scraping data using Python3 from JS generated content,8
+TypeError: Mismatch between array dtype (&#39;|S6&#39;) and format specifier (&#39;%.18e&#39;),12
+Iterate over values in pandas,8
+Is it possible to remove all usages of a module in a python script?,4
+Python ParseError: not well-formed,2
+Getting an AWK command to work in Python script,16
+FInd all the points that lie with in a spherical region,12
+Remotely connect to MySQL with Pytho mysql.connector,20
+Python iteration not entering if-elif,12
+n tuples(or array) and specifying the value for each entry in the n tuple via Python,14
+Pandas: How to fill null values with mean of a groupby?,546
+recvfrom() behaviour when multiple connections to socket,16
+Random selection of variables from a dictionary and print on a GUI in python,8
+compare two pandas data frame,52
+Pre-filling request headers using classes derived from requests.Session in Python,110
+Creating a multiindexed `DataFrame` with a nested dictionary,158
+Calculating Average True Range (ATR) on OHLC data with Python,14
+Why does the Gmail API return garbage data,34
+Ctypes struct finalization,14
+Pandas: replace some values in column if that contain a substring,14
+Python with selenium webscraping unable to find elements,64
+how do I drop NA within pandas.DataFrame.query,218
+How to align at keyword arguments in Atom,110
+How to get all possible combinations of a list’s elements?,668
+Combining L and U matrix in Doolittle&#39;s Decomposition,2
+Python: Reshaping the JSON After Pull,14
+Updating an old system to Q-learning with Neural Networks,44
+Better way to execute Python module with 64bit Python when running 32bit Python?,64
+Obtain all the points that lie within a Sphere of radius R and center C in Python,12
+Call thread several times in python,10
+Efficient finding primitive roots modulo n using Python?,114
+"I wrote a password sniffer with scapy, but it only shows results from my machine",14
+How to fetch property in the template Django 1.8?,64
+Getting error in Executing BLOSUM62 matix,6
+taking the product of the elements of tuples based on their sum,14
+Mercurial scripting with python,1012
+While using chunked requests on raspberry pi getting warning &#39;Connection pool is full&#39;,14
+how to edit a specific column of a file using python,14
+What is the meaning of &quot;gaierror: [Errno -3] Temporary failure in name resolution&quot;,110
+web scrapping in python 3.5 mac os,0
+Import Error: No module named numpy,44
+Get difference between two lists,1482
+Ignore mismatched tag in xml.etree.ElementTree.XMLParser Python,20
+how to merge two files using python,14
+How can check or install same Hive and Python thrift version or update same,14
+Parsing Very Large XML Files Using Multiprocessing,52
+Reading in environment variables from an environment file,110
+change the value in reduced matrix pandas,8
+Parse using beautifulSoup Python?,2
+Detect same words using different alphabets?,48
+Display multiple audios in a table in ipython notebook,102
+How do you concatenate all the HDF5 files in a given directory?,18
+Sklearn or my computer can&#39;t handle data set,12
+Could anybody explain this code?,26
+How do I add space between two variables after a print in Python,22
+Python concurrent.futures callback with submit of another callable,154
+Convert a list of tuples to python dictionary without losing the order,148
+Slicing a list in Python: is there something like -0?,320
+Save and retrieve prettytable contents,114
+Serialize XML document using hexa entities with lxml,84
+RabbitMQ &quot;Error: Failed to initialize erlang distribution&quot; when trying to change password,110
+Unable to stop importing data,6
+How to update data for Matplotlib&#39;s im_show(),0
+How to assign a column in 2d-array to some repetitive range using Python?,114
+Insertion Sort with a Linked List,14
+Storing Multiple Files for Each Instance of A Model,68
+broadcast / extend boolean array along axis in python,8
+convert range time data to datetime in pandas to_datetime,12
+Iterating a Dataframe with another Dataframe and correlate using Pandas,10
+"Running long job on OSX that involves `scp`, encountering ssh error during screen saver",158
+python 3D numpy array time index,12
+Plotting a column containing lists using Pandas,16
+Numpy: rotate sub matrix m of M,48
+"How to make a continuous alphabetic list python (from a-z then from aa, ab, ac etc)",44
+Rolling Mean with Groupby object in Pandas returns null,10
+how to umount from python script,58
+how to deepcopy a module in python,72
+Obtaining the element(s) that appears in 3 or more lists,12
+How to convert timecode string to seconds,282
+Django 1.9 &#39;ascii&#39; codec can&#39;t encode character u&#39;\xf1&#39;,20
+Updating SQL table using mysql python module,12
+Changing the axis scale in numpy plot,212
+Searching in a .txt file (JSON format) for a particular string and then printing a specific key,8
+Can&#39;t plot heatmap in Bokeh with datetime x axis,98
+Matplotlib overlapping color and marker,12
+GnuPG Python-PyQt key generation is not working,36
+Connect C method with a python script,0
+Running a multi-model pipeline in Tensorflow Serving,4
+convert spark dataframe to numpy (ndarray),6
+Regex simplification using python re,140
+How to access an item from S3 using boto3 and read() its contents,516
+Adding missing dates to dataframe using reindex replaces data,18
+Parse text that is constantly updated using BeautifulSoup?,2
+pip.exe has stopped working,14
+How to remove hyphen from compound words?,4
+how do I card shuffle a pandas series quickly,218
+"TypeError: string indices must be integers, not tuple",12
+Image to text recognition using Tesseract-OCR is better when Image is preprocessed manually using Gimp than my Python Code,142
+model convert field automatically?,14
+What do I pass as the x and y parameters in tf.contrib.learn.LinearClassifier.fit,218
+"Normal equation and Numpy &#39;least-squares&#39;, &#39;solve&#39; methods difference in regression?",114
+PyQT: How to set Combobox Read-Only,282
+403 &quot;Request had insufficient authentication scopes&quot; when creating drafts in Google API with Python,12
+Exception: &quot;dot&quot; not found in path in python on mac,12
+Find many members of a list in an other! Python,4
+Searching through index number in a .txt file (JSON format) in Python code,8
+how do I get at the pandas.offsets object given an offset string,218
+Numpy: create a matrix from smaller matrices,48
+"Python: how to create a list of lists with increasing length, made of random numbers?",68
+Numpy: efficiently sum sub matrix m of M,48
+python argument using &lt; (io redirection) in linux,8
+Check if hadoop cluster exists,12
+Finding elements matching a set of tag names using lxml,292
+Create a QMenubar under QTabWidget tabs,70
+Sorting with Pandas does not return the desired output,68
+Python Server-Sent Example,178
+Problems running click command group,656
+Django : How can I mock request.session of view?,46
+Is it possible to use python tox to install missing platform libraries?,2392
+Create a temporary table in python to join with a sql table,16
+python cv2 fisherface training: does repeated training overwrite the original training?,26
+change rows in pandas,8
+slice pandas series by set number of rows from a specific index,218
+How to use files in Python,6
+How to input commands to CTS-Tradefed?,12
+distutilscross issue when install PyAudio for cross-platform,2
+Python Pandas -- Determine if Values in Column 0 Are Repeated in Each Subsequent Column,30
+searching all fields in a table in django,1078
+definition of each section of the scipy linear programming function,22
+Python : Scraping Websites Not Returning any Html,14
+How do I resolve the issue with the use of multiprocessing,12
+What is the best way to raise request errors?,110
+Python Pandas Using dataframe.stack().value_counts() -- How to get values of counted objects?,30
+Networkx: all Spanning Trees and their associated total weight,68
+Changing Win Form tabcontrol header fore/back color using ironpython,2
+How to parse data using html.parser into a list,8
+"Using Python and Openpyxl to loop through a .xlsx, but loop only save the last row&#39;s data",6
+"Boolean, which date is older",2
+crlibm.h no such file while installing pyinterval,10
+How can I take out data of lists?,6
+How to encrypt a large dataset using python-gnupg without sucking up all the memory?,270
+SQLAlchemy after_update event fires twice in Flask-admin,26
+Extract data from string by comparing it to template,56
+distinguish between printed and handwritten text. same page layout (surveys),22
+Get CostModel stats/estimates in TensorFlow?,12
+Understanding the wtforms StringField implementation,90
+Find all the row indices of a set of elements in a 2D Array,12
+How do I create a copy of a database file in python?,14
+Align dataframe diagonals into columns?,218
+How to change variables inside a class at runtime?,12
+How Python reads a file when it was deleted after being opened,12
+How to tell distutils to use gcc?,532
+how to install PyAudio for linux Cross-platform,2
+How to write Python code that is able to properly require a minimal python version?,2392
+glib.GError: Error interpreting JPEG image file (Unsupported marker type 0x05),530
+displaying information from two tables in one page Flask,10
+Validate (X)HTML in Python,1196
+How to set up the flaskr example application,110
+Correct usage of list.remove(),8
+Trouble accessing exif information with PIL.Image._getexif(),4
+Create Hexbin plot with pandas dataframe using index and columns names as x and y,16
+Running python from CMD - fails due to wrong understanding of imports,76
+How to replace &#39;Ellipsis&#39; with the actual data value in a pandas Series?,4
+how to replace elements of pandas series?,4
+pandas str extract as integer,218
+Taking data from a data.txt file in JSON format and displaying it randomly on the GUI,8
+Python Spectrum Analysis,38
+reading and writing cfg files in python,178
+How to start a server from the command line in a Python unittest,110
+probability n gram for translation,2
+Print a list of items separated by commas but with the word &quot;and&quot; before the last item,4
+Python Django : Saving a Version model that references other current models saved,12
+decorators in the python standard lib (@deprecated specifically),1870
+HTTP Error 401: Unauthorized using urllib.request.urlopen,20
+"Let someone run your code, but not see it",310
+Pandas: using str.contains and map to find some substring and replace value in column,14
+Detect Python version at runtime,406
+Is there a more pythonic way to skip rows in xlsx?,34
+Changes made to the Python code not reflected on server in Fedora in Virtual Box(Not duplicate),16
+Why does pandas apply calculate twice,218
+python: functions *sometimes* maintain a reference to their module,384
+clojure equivalent of python defaultdict,180
+What is a pythonic way of populating in a dataframe from a csv file that has only few rows?,16
+python crawler about asynchronous,18
+sympy arbitrary function range,60
+How to enable the project and make it appear in the Google Analytics dashboard,148
+Updating a csv with python,6
+Python: Tweepy get location from each tweet,2
+pandas and calling function on an object,52
+How to wrap several printed values by defined symbol in __repr__()?,10
+Why is statistics.mean() so slow?,58
+"Python: how to merge two lists of lists together, avoiding repetitions?",68
+How to display content dinamically in django view?,14
+Improving the speed of writing into a txt file python,14
+is it possible to make a query lookup for given model inheritance?,24
+Add datetime in pandas dataframe to existing row based on column,98
+Can&#39;t import MongoClient,4628
+Python: use of Counter in a dictionary of lists,68
+calculating producer-consumer flow matrix - earth movers histogram comparison,12
+Pandas: make pivot table with percentage,14
+How to get integers out of QCUT while creating Categories for DataFrame Series,282
+What is the equivalent for Iterrows in Python 3.5,10
+How can I update the photo within a button using radio buttons?,4
+RuntimeError: populate() isn&#39;t reentrant on CentOS 7 | django 1.9 | python3,20
+Pylint on files within Directory and subdirectory?,8
+Python: unable to convert string into number,14
+Running &quot;print&quot; raises &quot;TypeError&quot; in Python,46
+How to get all reviews of &quot;ANY&quot; app from Google&#39;s playstore programatically?,36
+How do I workaround the element not visible exception while using Selenium for Python,4
+python-glpk installation fix,22
+Dependency from django app to jquery plugin,530
+Python tkinter - can&#39;t display same frame more than once?,10
+Python syntax highlighting for php using pygments,0
+calculate useful order statistics using describe with NaN in dataframe,218
+Numpy: find local co-ordinates within a submatrix,48
+Plotting a Photocell Sensor Data in the Real-time,6
+Comparing workhours across multiple timezones,10
+HTML select options from a python list,12
+"Antispam filter, list problems",4
+Any way using pyodbc to return literal SQL,40
+Selenium Phantomjs browsers hangs on startup. How do I debug it?,492
+Are Python Lists mutable?,24
+Using IndexSlice to filter MultiIndex Dataframes with Pandas,44
+aggregate Dataframe pyspark,6
+Hive Server 2 error on python connect with hiveserver2,14
+get dataframe slice with list of column names where not all columns are in dataframe,218
+Python Pandas convert GroupBy object to DataFrame,158
+How to check the &#39;verify&#39; setting in Python&#39;s requests using RequestBin or similar,110
+How to get integers instead of floats from DataFrame&#39;s rank method,282
+Opening preexisting jupiter notebook in pycharm,660
+Pandas: How to fill in null values from columns in another dataframe?,546
+Copy Doc from Mongodb Collection to another collection,10
+RuntimeError: the sip module implements API v11.0 to v11.2 but the PyQt5.QtCore module requires API v11.3,50
+How can I implement a weighted cross entropy loss in tensorflow using sparse_softmax_cross_entropy_with_logits,14
+installing Mayavi with pip - no module named vtk,92
+Comparing the values within a specified range,8
+What is right way to call async code in regular callback?,50
+"daily data, resample every 3 days, calculate over trailing 5 days efficiently",218
+"Django, mod_wsgi, apache2 and Ubuntu 12.04",24
+what is a verifiable example of how to trigger a `is_copy` flag?,218
+How to split elements of a pandas series and put them into JSON format?,4
+Python script not outputting SSH command correctly,16
+Difference between osv.osv class and models.Model class odoo 8,26
+Getting column name on querying max value of column,8
+Running Selenium through a proxy (python),10
+I have written the code but when the bill is printed the total amount is wrong. Help me,8
+Python running clock in separate window,18
+pandas interpolate only when values exist on both sides,218
+Antispam Filter,4
+Directly write to encrypted file in Python,378
+Django: broken migrations,152
+How to treat the last element in list differently in Python?,3522
+how to check if there is a cycle by given set of edges,8
+Python httplib SSL23_GET_SERVER_HELLO:unknown protocol,82
+Unable to save the correct file format to S3 using Databricks (python),176
+Plot list of lists (which different length) in a plot in python,212
+Convert date Python,438
+Use of &quot;except Exception&quot; vs. &quot;except ... raise&quot; in Python,110
+how do i do conditional branching on a elements of a pandas series?,4
+Order of cells in jupyter notebook is not respected when generating slides with nbpresent,64
+Running Cython in Jupyter iPython,22
+Dajngo social auth verify if username exist,10
+Closing and opening files between conditions,646
+Remove white space Python writerows,140
+providing dynamic client ID and client secret for mobile users using django oath2 toolkit,24
+Using Django rendered lists in Javascript on the rendered html page,28
+HTTP/1.1&quot; 304 javascript and openstreetmap,12
+how is web socket created,20
+"NumPy: Finding minimum in submatrices/blocks and corresponding row, column indices",48
+What is context? Why use in odoo?,6
+Why does this code using variable arguments give a TypeError?,18
+How to convert unusual 24 hour date time format in python?,16
+How should I implement corporate accounts on the web-site?,2
+Rolling Mean in Pandas,10
+Creating a multiindexed `Series` with a nested dictionary,158
+Numpy: efficiently expand a matrix from submatrix,48
+Cant find pg_config even after installing Postgres 9.5,10
+pika.exceptions.ProbableAuthenticationError encountered in RabbitMQ tutorial,110
+Incorrect integer value error on creating IntegerField Django 1.8,64
+Python Creating Classes Code,18
+Not able to fetch contacts from Salesforce,16
+Efficiently create Unigrams through nltk by Parsing XML files in Python using Beautifulsoup,14
+Using Numpy Array to Create Unique Array,52
+error in calculating gradient use python,8
+Minimum supported python version of boto-2.38.0,10
+Change specific letters in string using string manipulation,0
+Python: how to visit a link which is in inbox of GMail,12
+How to use REGEX with multiline,282
+Parallelizing a code in Python,12
+UnicodeDecodeError with pandas.read_sql,14
+using list on postgresql JSON type with sqlalchemy,14
+NetworkX: how to create an incidence matrix of a weighted graph?,68
+Ctypes segmentation fault fixed by faulthandler,14
+How to set QListView rows height permanently,282
+Patch pyopenssl for sslv3 issue,404
+How to single out an hour value in Python?,10
+Adding multiple recipients using google api in python?,12
+Django Form request not saving data to db,28
+Unusually large value for statistic in wilcoxon test in scipy,212
+Using one socket in UDP chat using threading,6
+Django: ascii Traceback from Debug Page (HTML),530
+Cannot filter Gmail API push notifications,34
+"Pyodbc returning (Decimal(&#39;100.00&#39;),)",14
+Python: how to remove/delete every n-th element from list?,114
+Keras: reshape to connect lstm and conv,320
+How to concat multiple Dataframes,282
+Pandas - Sorting a dataframe by using datetimeindex,30
+Get out-of-fold predictions from xgboost.cv in python,758
+"PyQt, After MessageBox application quits, why?",58
+Django can&#39;t see models on deployment server,16
+Calculating hours worked in a day and converting to decimal value,18
+Django: decorator in class based view,152
+TypeError: __init__() got an unexpected keyword argument &#39;current_app&#39; Django,18
+How to fill missing DataFrame value by copying a value from another column,282
+how to find &#39;\&#39; in a string in Python 3,10
+"when to use pre_save, save, post_save in django?",934
+Pandas: modify cell values using method chaining,46
+How can i get all instances of class from imported model?,10
+How do I incrementally add rows in Pandas Dataframe?,30
+python selenium 3.0 - Firefox 47.0.1 installed in default location is not identified. (geckodriver),36
+Theano with Anaconda on Windows: how to setup BLAS?,320
+Pandas crosstab - How to print rows/columns for values that don&#39;t exist in the data sets?,12
+Python 3.5 + PyQt5 to standalone exe,10
+Kernel error with Anaconda (Python 2.7) for Windows 10. Spyder IDE console error,114
+Why to use Lambda to send Function as Argument to Another Function,282
+pg_config executable not found,52
+Redis for Channels in Django with Gunicorn and Nginx,4
+Django: psycopg2 import error,152
+"New to Python, and must complete a drill",10
+How to return from function if argument is not supplied using Exception,282
+Searching in a list of multiple dictionaries,8
+List of tuples to Nested dictionary,8
+EOFError: EOF when reading a line only when execute it via curl,310
+Python to print out status bar and percentage,854
+Get only the most recent message from thread,34
+Why does &quot;in&quot; operator in python behave differently for a list and a string.?,36
+How to append a suffix for specific column names of a dataframe from a list,32
+Forced assign value to function call,72
+pandas timeseries DF slice and selection,12
+How to upload file using selenium webdriver+python,2
+How to define section number that 2d-array is divided to using Python?,114
+python2 code get error when using python3.5,2
+Convert a dict to numpy multi-dimensional array,18
+Opposite of trim in Python,30
+Python on Windows: Which pip,18
+How do I properly use var[0] interpretation,0
+Tool/Script for automatically converting multiline javadoc style swift comments to block comments,310
+No such element when using compound classes Selenium,6
+How to get the database and table name from a ReQL query,110
+Unhashable type : &#39;list&#39; Error,4
+Python group by,1410
+How to write LaTeX in IPython Notebook?,62
+Docker interactive mode and executing script,60

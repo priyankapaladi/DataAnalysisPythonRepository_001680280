@@ -1,0 +1,28 @@
+# Ping for user id's for all the questions that has been collected
+import requests, json
+import time
+page = 0
+
+
+file = open('USERID.txt', 'r')
+#list = file.readlines()
+filelist = [line.rstrip('\n') for line in file] #removal of /n
+file.close()
+print("User ID's has been added to list")
+
+path_of_badges = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Badges/'
+# 169643 ids
+first = filelist[100:1000]
+second = filelist[50000:100000]
+for id in filelist:
+    url = 'https://api.stackexchange.com/2.2/users/'+id+'/badges?order=desc&sort=rank&site=stackoverflow&key=kyGQl9dUXIepqbCHGEqExw(('
+    response = requests.get(url)
+    response = response.json()
+    with open(path_of_badges+id+'.json', 'w') as f:
+        json.dump(response, f)
+    page = page + 1
+    if page % 1000 == 0:
+        print(page)
+    time.sleep(1)
+print("These were the number of user id's:", page)    
+print("Badges obtained by the users have been saved in the folder")

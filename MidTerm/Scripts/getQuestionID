@@ -1,0 +1,22 @@
+import requests, json, os
+import time
+
+path_to_json = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Questions/'
+json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
+
+question_id = []
+for js in json_files:
+    with open(os.path.join(path_to_json, js)) as json_file:
+        data = json.load(json_file)
+    questions = data['items']
+    for item in questions:
+        try:
+            if item['question_id'] is not None and item['question_id'] not in questions:
+                question_id.append(item['question_id'])
+        except KeyError:
+            continue
+print(len(question_id))
+f = open("QUESTIONID.txt", "w")
+f.write("\n".join(map(lambda x: str(x), question_id)))
+f.close()
+print("The Question ID's have been saved in QUESTIONID.txt file")

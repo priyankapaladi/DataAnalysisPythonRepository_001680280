@@ -1,0 +1,29 @@
+import os, time
+import requests
+
+file = open('USERID.txt', 'r')
+#list = file.readlines()
+filelist = [line.rstrip('\n') for line in file] #removal of /n
+file.close()
+print("User ID's has been added to list")
+
+filepath = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/UserProfile_For_Questions/'
+page = 0
+
+first = filelist[]
+for file in filelist:
+    path = filepath+file+'.json'
+    if os.path.isfile(path):
+        continue
+    else:
+        #for id in userId:
+            #idStr = str(id)
+        url = 'https://api.stackexchange.com/2.2/users/'+file+'?order=desc&sort=reputation&site=stackoverflow&key=f49Nam3UjMJmLs2KHr1jcg(('
+        response = requests.get(url)
+        response = response.json()
+        with open(file+'.json', 'w') as f:
+            json.dump(response, f)
+            page = page + 1
+        time.sleep(1)
+
+print(page)

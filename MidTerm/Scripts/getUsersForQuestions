@@ -1,0 +1,23 @@
+import json, os
+
+path_to_json = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Questions/'
+json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
+
+
+userId = []
+page = 0
+for js in json_files:
+    with open(os.path.join(path_to_json, js)) as json_file:
+        data = json.load(json_file)
+    users = data['items']
+    for item in users:
+        try:
+            if item['owner']['user_id'] is not None and item['owner']['user_id'] not in userId:
+                userId.append(item['owner']['user_id'])
+        except KeyError:
+            continue
+print(len(userId))
+f = open("USERID.txt", "w")
+f.write("\n".join(map(lambda x: str(x), userId)))
+f.close()
+print("The UserID's have been saved in USERID.txt file")

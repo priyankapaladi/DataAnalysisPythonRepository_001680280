@@ -1,0 +1,94 @@
+import json, os
+
+path_to_questions = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Questions/'
+path_to_user = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/UserProfile_For_Questions/'
+json_files = [pos_json for pos_json in os.listdir(path_to_questions) if pos_json.endswith('.json')]
+
+
+userId_python = []
+userId_java = []
+page = 0
+count = {}
+user_badge_count = {}
+topweighted_questions_python= {}
+topweighted_questions_java= {}
+for js in json_files:
+    with open(os.path.join(path_to_questions, js)) as json_file:
+        data = json.load(json_file)
+    users = data['items']
+    for tag in users:
+        tags = tag['tags']
+        #print(tags)
+        try:
+            for everytag in tags:
+                if 'python' in everytag:
+                    userId_python.append(tag['owner']['user_id']) # get user id
+                    path_user = path_to_user+str(tag['owner']['user_id'])+'.json'
+                    with open (path_user,'r') as json_file:
+                        data = json.load(json_file)
+                    user_badges = data['items']
+                    weights = {'gold': 8, 'bronze': 2, 'silver': 4}
+                    for item in user_badges:
+                        try:
+                            count = item['badge_counts']
+                            user_reputation[item['user_id']] = item['reputation']
+
+                            weight = 2
+                            value = 0
+                            for key in count:
+                                value = value + weights[key] * count[key]                    
+                            user_badge_count[item['user_id']] =  value #sum(count.values())
+                            topweighted_questions_python[tag['title']] = value
+                        except KeyError:
+                            continue
+                        page = page + 1
+
+                if 'java' in everytag:
+                    userId_java.append(tag['owner']['user_id']) # get user id
+                    path_user = path_to_user+str(tag['owner']['user_id'])+'.json'
+                    with open (path_user,'r') as json_file:
+                        data = json.load(json_file)
+                    user_badges = data['items']
+                    weights = {'gold': 8, 'bronze': 2, 'silver': 4}
+                    for item in user_badges:
+                        try:
+                            count = item['badge_counts']
+                            user_reputation[item['user_id']] = item['reputation']
+
+                            weight = 2
+                            value = 0
+                            for key in count:
+                                value = value + weights[key] * count[key]                    
+                            user_badge_count[item['user_id']] =  value #sum(count.values())
+                            topweighted_questions_java[tag['title']] = value
+                        except KeyError:
+                            continue
+                        page = page + 1
+
+                    userId_java.append(tag['owner']['user_id'])
+        except KeyError:
+            continue
+        except  FileNotFoundError:
+            continue
+
+print("done")
+
+print(len(userId_python),'python tags')
+print(len(userId_java), 'java tags')
+print(topweighted_questions_python)
+print(topweighted_questions_java)
+    
+ 
+
+import csv
+with open('topweighted_questions_python.csv', 'w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in topweighted_questions_python.items():
+        writer.writerow([key, value])
+
+with open('topweighted_questions_java.csv', 'w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in topweighted_questions_java.items():
+        writer.writerow([key, value])
+
+

@@ -1,0 +1,39 @@
+# from the badges already stored find the most popular badges
+import os, json
+
+path_to_badges = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Badges/'
+json_files = [pos_json for pos_json in os.listdir(path_to_badges) if pos_json.endswith('.json')]
+userlist = []
+badge_dict = {}
+for js in json_files:
+    with open(os.path.join(path_to_badges, js)) as json_file:
+        data = json.load(json_file)
+    
+    badges = data['items']
+    #print(len(badges))
+    for item in badges:
+        if item['badge_type'] == 'named':
+            if item['name'] in badge_dict:
+                badge_dict[item['name']]  += 1 
+            else:
+                badge_dict[item['name']]  = 1 
+
+            if item['user']['user_id'] not in userlist:
+                userlist.append(item['user']['user_id'])
+        
+print(badge_dict)
+
+badge_sorted = sorted(badge_dict.items(), key=lambda x:x[1], reverse = True)
+print(badge_sorted)
+
+import csv
+with open('badge_dict.csv', 'w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in badge_dict.items():
+        writer.writerow([key, value])
+
+        
+with open('question_count.csv', 'w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in question_count.items():
+        writer.writerow([key, value])

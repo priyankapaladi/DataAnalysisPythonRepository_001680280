@@ -1,0 +1,21 @@
+# Get data for python
+import requests
+import os, json
+from time import sleep
+
+pageStr = '954'
+filepath = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Tags/'
+
+while True:
+    # url = 'https://api.stackexchange.com/2.2/tags?page=1&pagesize=100&order=desc&sort=popular&site=stackoverflow&key=f49Nam3UjMJmLs2KHr1jcg(('
+    url = 'https://api.stackexchange.com/2.2/tags?page='+pageStr+'&pagesize=100&order=desc&sort=popular&site=stackoverflow&key=f49Nam3UjMJmLs2KHr1jcg(('
+    response = requests.get(url)
+    response = response.json()
+    with open(os.path.join(filepath, pageStr)+'.json', 'w') as f:
+        json.dump(response, f)
+    page = int(pageStr) + 1
+    pageStr = str(page)
+    if page == 1500:
+        break
+    time.sleep(1)
+print(page)

@@ -1,0 +1,34 @@
+import os, json
+
+file = open('QUESTIONID.txt', 'r')
+#list = file.readlines()
+questionlist = [line.rstrip('\n') for line in file] #removal of /n
+file.close()
+print("Question ID's has been added to list")
+print(len(questionlist))
+
+
+
+filepath = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Answers/'
+page = 0
+first = questionlist[3229:5000]
+third = questionlist[100000:99900]
+
+for file in first:
+    path = filepath+file+'.json'
+    if os.path.isfile(path):
+        continue
+    else:
+        for id in first:
+            #idStr = str(id)
+            url = 'https://api.stackexchange.com/2.2/questions/'+id+'/answers?order=desc&sort=activity&site=stackoverflow&key=kyGQl9dUXIepqbCHGEqExw(('
+            response = requests.get(url)
+            response = response.json()
+            with open(os.path.join(filepath, id)+'.json', 'w') as f:
+                json.dump(response, f)
+                page = page + 1
+            if page % 1000 == 0:
+                print(page)
+            time.sleep(1)
+print("These were the number of answers collected:", page)    
+print("Answers obtained for the questions have been saved in the folder ../Answers")

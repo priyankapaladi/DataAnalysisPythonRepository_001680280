@@ -1,0 +1,65 @@
+import json, os
+
+path_to_questions = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Questions/'
+json_files = [pos_json for pos_json in os.listdir(path_to_questions) if pos_json.endswith('.json')]
+userId_python = []
+userId_java = []
+
+for js in json_files:
+    with open(os.path.join(path_to_questions, js)) as json_file:
+        data = json.load(json_file)
+    users = data['items']
+    for tag in users:
+        tags = tag['tags']
+        #print(tags)
+        try:
+            for everytag in tags:
+                if 'python' in everytag:
+                    userId_python.append(tag['owner']['user_id'])
+                if 'java' in everytag:
+                    userId_java.append(tag['owner']['user_id'])
+        except KeyError:
+            continue
+
+
+
+
+# get tags associated with the user id
+import requests
+import time
+path_to_json = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/TagsOfUsers/'
+json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
+user_link = {}
+
+for userID in userId_python:
+    url = 'https://api.stackexchange.com/2.2/users/'+str(userID)+'/tags?order=desc&sort=popular&site=stackoverflow&key=f49Nam3UjMJmLs2KHr1jcg(('
+    response = requests.get(url)
+    response = response.json()
+    with open(path_to_json+str(userID)+'.json', 'w') as f:
+        json.dump(response, f)
+        time.sleep(1)
+print("Tags obtained for the usertags files have been saved in the folder ../TagsOfUsers")
+
+
+path_to_user = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/UserProfile_For_Questions/'
+user_reputation = {}
+
+for userID in userIDs_python:
+    with open(path_to_user+str(userID)+'.json', 'r') as json_file:
+        data = json.load(json_file) 
+    users = data['items']    
+    for item in  users:
+        user_link[item['user_id']] = item['display_name'] + " - " + item['link']
+        user_reputation[item['user_id']] = item['reputation']
+    
+sorted_user_reputation = sorted(user_reputation.items(), key=lambda x:x[1], reverse = True)
+print(sorted_user_reputation)
+
+
+
+import csv
+with open('user_reputation.csv', 'w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    for key, value in user_reputation.items():
+        writer.writerow([key, value])
+
