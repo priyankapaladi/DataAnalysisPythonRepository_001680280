@@ -14,7 +14,7 @@ for js in json_files:
     users = data['items']
     for item in users:
         try:
-            if item['owner']['user_id'] is not None and item['owner']['user_id'] not in userId:
+            if item['owner']['user_id'] is not None and item['owner']['user_id'] not in userId: # Else condition for this?
                  if item['score'] < 0:
                     if item['owner']['user_id'] in downvote_for_user:
                         downvote_for_user[item['owner']['user_id']] +=  1
@@ -25,4 +25,4 @@ for js in json_files:
             continue
 
 sorted_downvote = sorted(downvote_for_user.items(), key=lambda x:x[1], reverse = True)
-print(sorted_downvote [:10])
+print(sorted_downvote [:10]) # Print all the values rather than just 10.
