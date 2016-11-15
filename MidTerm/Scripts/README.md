@@ -22,4 +22,11 @@ getTags.py
 
 
 
+## Feedback
+* A lot of code is repetative. Create a function for that. 
+* Analysis are good but you can come up with more.
+* Make your analysis bit more generic. Use argparse to get input from users.
+* While saving the data, try to save it more granularly.
+
+
 
