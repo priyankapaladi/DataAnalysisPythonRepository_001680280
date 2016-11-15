@@ -1,6 +1,8 @@
+# Save it as .py file.
 import requests, json, os
 import time
 
+# Try not to hard code the path.
 path_to_json = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Questions/'
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
 
