@@ -1,3 +1,4 @@
+# A lot of this data collection code is repetative. Avoid that by creating a function.
 import json, os
 
 path_to_json = 'F:/Python_DataAnalysis_Assignments/DataAnalysisPythonRepository_001680280/MidTerm/Questions/'
